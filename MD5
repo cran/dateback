@@ -1,0 +1,8 @@
+b7c21bcf027f38335330dfca61b95488 *DESCRIPTION
+471cf43793eefc22256710a8c4192062 *LICENSE
+01f92df9b5cfddd88e34eccfbdc44b09 *NAMESPACE
+2f332176edca8e19d9ae56f92b7578e7 *R/collect.R
+4f7120891ef9c9fee22bf2ce8a1cab8b *R/install.R
+409555f50cd2aa23efe139c7e5a2d8d4 *R/internal.R
+c2f7ead80ebf4fdc59908d8acb103327 *man/install.Rd
+ae7c76149caba219bfa677921f19fd71 *tests/tests.R
