@@ -37,7 +37,7 @@ See the example for details.
 \arguments{
   \item{pkgs}{character vector of the names of packages.}
   \item{date}{character specifying a date in \code{YYYY-MM-DD} format.
-    It tries to find source packages which were available on this date.}
+    It tries to find the latest version of source packages on this date.}
   \item{outdir}{character specifying the output directory path.
     In \code{install()} it can be \code{NULL} to use a temporary directory.
     It will contain downloaded source packages, and can be used as
@@ -59,14 +59,23 @@ See the example for details.
 \value{\code{data.frame} containing information about collected packages.
 Please notice that it is intended for logging, and the structure of
 this object may change in future releases.}
+\note{This package was originally developed to (partially) substitute the
+"CRAN Time Machine" (or "MRAN Time Machine"), which retired in July 2023
+(\url{https://blog.revolutionanalytics.com/2023/01/mran-time-machine-retired.html}).
+
+Posit Package Manager (\url{https://packagemanager.posit.co/}) has a snapshot
+feature, so can be used as a direct replacement for CRAN Time Machine.
+Windows/Mac users would greatly benefit from it since binary packages are also
+available.
+}
 \examples{
 \dontrun{
 
-# Install 'ranger' package and its dependecies on the date `2023-03-01`
+# Install 'ranger' package and its dependecies on the date 2023-03-01
 dateback::install(pkgs = "ranger", date = "2023-03-01")
 
 # Collect packages and install them later (maybe on another system)
-dateback::collect(pkgs = "ranger", date = "2023-03-01", outdir = "out_dir")
-install.packages(pkgs = "ranger", repos = "file:out_dir")
+dateback::collect(pkgs = "ranger", date = "2023-03-01", outdir = "local_repo")
+install.packages(pkgs = "ranger", repos = "file:local_repo")
 }
 }
