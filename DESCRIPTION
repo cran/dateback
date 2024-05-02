@@ -2,7 +2,7 @@ Package: dateback
 Type: Package
 Title: Collect and Install R Packages on a Specified Date with
         Dependencies
-Version: 1.0.4
+Version: 1.0.5
 Author: Ryota Suzuki <suzuki@ef-prime.com>
 Maintainer: Ryota Suzuki <suzuki@ef-prime.com>
 Description: Works as a virtual CRAN snapshot for source packages.
@@ -12,6 +12,6 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 URL: https://github.com/r-suzuki/dateback
 NeedsCompilation: no
-Packaged: 2024-04-10 08:12:23 UTC; rstudio
+Packaged: 2024-05-02 02:16:50 UTC; rstudio
 Repository: CRAN
-Date/Publication: 2024-04-10 09:20:02 UTC
+Date/Publication: 2024-05-02 08:32:37 UTC

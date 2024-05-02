@@ -1,8 +1,8 @@
-06ee9a86ae1728067c26dfa4d8841df5 *DESCRIPTION
+15d7f832f707cfcebf5bb649a3660043 *DESCRIPTION
 471cf43793eefc22256710a8c4192062 *LICENSE
 01f92df9b5cfddd88e34eccfbdc44b09 *NAMESPACE
-2f332176edca8e19d9ae56f92b7578e7 *R/collect.R
+ed1285db98e3090c44f4c259f5018b59 *R/collect.R
 4f7120891ef9c9fee22bf2ce8a1cab8b *R/install.R
-9357bda0f72a447d66a9b2efbadee54c *R/internal.R
+ef097e09e44f26369e65074a1256e071 *R/internal.R
 48b4f9fbadc0839aec3b89eda26d2d8d *man/install.Rd
 664a84894bbf11a3c3465bb5bf27f719 *tests/tests.R
